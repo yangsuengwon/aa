@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/bt_Ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:backgroundTint="#FFFFFF"
+        android:checkable="true"
+        android:text="Ok"
+        android:textColor="#FF5722"
+        android:typeface="normal"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btCancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:text="Cancle"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:singleLine="true"
+        android:text="result"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edTtitle"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:enabled="true"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        android:text="Title" />
+
+    <CheckBox
+        android:id="@+id/chkBeer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="beer" />
+
+    <CheckBox
+        android:id="@+id/chkwine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wine" />
+
+    <ImageView
+        android:id="@+id/img_wine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:srcCompat="@drawable/stevencarsn_1399466648139149314_20210531_164344_img1" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdfemale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="female" />
+
+        <RadioButton
+            android:id="@+id/rdmale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="male" />
+
+    </RadioGroup>
+
+    <Switch
+        android:id="@+id/sw_door"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Door" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdyes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="yes" />
+
+        <RadioButton
+            android:id="@+id/rdno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="no" />
+
+        <ImageView
+            android:id="@+id/imgView_beer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:visibility="visible"
+            app:srcCompat="@drawable/beer" />
+
+    </RadioGroup>
+
+</LinearLayout>
