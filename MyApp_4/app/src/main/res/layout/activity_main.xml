@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_Sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub_1" />
+
+    <Button
+        android:id="@+id/bt_Sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub_2" />
+
+    <Button
+        android:id="@+id/btSub_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sub_3" />
+
+    <EditText
+        android:id="@+id/et_MyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MyName" />
+
+    <EditText
+        android:id="@+id/et_MyBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MyBirth : YYYYMMDD" />
+
+    <CheckBox
+        android:id="@+id/chk_Viewimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="ViewImg" />
+
+    <Button
+        android:id="@+id/bt_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result" />
+
+</LinearLayout>
